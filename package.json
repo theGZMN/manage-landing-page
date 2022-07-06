@@ -1,0 +1,23 @@
+{
+  "name": "manage-landingpage",
+  "version": "1.0.0",
+  "description": "A landing page for a website built using HTML and Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theGZMN/manage-landingpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theGZMN/manage-landingpage/issues"
+  },
+  "homepage": "https://github.com/theGZMN/manage-landingpage#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.4"
+  }
+}
