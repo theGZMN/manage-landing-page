@@ -4,7 +4,8 @@
   "description": "A landing page for a website built using HTML and Tailwind CSS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tailwindcss -i ./src/input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./css/main.css --watch"
   },
   "repository": {
     "type": "git",
