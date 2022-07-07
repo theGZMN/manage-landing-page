@@ -9,6 +9,25 @@
   </head>
 
   <body>
-    <h1 class="text-2xl">Hello World</h1>
+    <!-- Navbar -->
+    <nav class="relative container mx-auto p-6">
+      <!-- Flex Container -->
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <div class="pt-2">
+          <img src="./img/logo.svg" alt="Logo">
+        </div>
+        <!-- Menu Items -->
+        <div class="hidden lg:flex space-x-4">
+          <a class="hover:text-darkGrayishBlue" href="#">Pricing</a>
+          <a class="hover:text-darkGrayishBlue" href="#">Product</a>
+          <a class="hover:text-darkGrayishBlue" href="#">About Us</a>
+          <a class="hover:text-darkGrayishBlue" href="#">Careers</a>
+          <a class="hover:text-darkGrayishBlue" href="#">Community</a>
+        </div>
+        <!-- Nav Button -->
+        <a href="#" class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">Get Started</a>
+      </div>
+    </nav>
   </body>
 </html>
