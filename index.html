@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>Manage Landing Page</title>
   </head>
 
-  <body>
+  <body class="font-sans">
     <!-- Navbar -->
     <nav class="relative container mx-auto p-6">
       <!-- Flex Container -->
@@ -18,7 +21,7 @@
           <img src="./img/logo.svg" alt="Logo">
         </div>
         <!-- Menu Items -->
-        <div class="hidden lg:flex space-x-4">
+        <div class="hidden md:flex space-x-4">
           <a class="hover:text-darkGrayishBlue" href="#">Pricing</a>
           <a class="hover:text-darkGrayishBlue" href="#">Product</a>
           <a class="hover:text-darkGrayishBlue" href="#">About Us</a>
@@ -29,5 +32,22 @@
         <a href="#" class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">Get Started</a>
       </div>
     </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <!-- Flex Container -->
+      <div class="container flex flex-col-reverse border-red-600 border-2 border-solid md:flex-row items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 space-x-0 lg:space-x-16">
+        <!-- Left Item -->
+        <div class="md:w-1/2 space-y-12">
+          <h1 class="text-4xl font-bold">Bring everyone together to build better products.</h1>
+          <p class="text-darkGrayishBlue">Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
+          <a href="#" class="inline-block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">Get Started</a>
+        </div>
+        <!-- Image -->
+        <div class="w-1/2">
+          <img src="./img/illustration-intro.svg" alt="">
+        </div>
+      </div>
+    </section>
   </body>
 </html>
